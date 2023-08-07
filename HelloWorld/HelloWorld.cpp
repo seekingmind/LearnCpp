@@ -1,10 +1,13 @@
-#include <iostream>
+//#include <iostream>
+//
+//using namespace std;
 
-using namespace std;
+// ÉùÃ÷Logº¯Êı
+void Log(const char* message);
 
 int main()
 {
-	cout << "Hello World!" << endl;
-	
+	//cout << "Hello World!" << endl;
+	Log("Hello World!");
 	return 0;
 }
